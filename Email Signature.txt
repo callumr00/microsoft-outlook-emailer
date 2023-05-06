@@ -1,0 +1,4 @@
+<p>Best Regards,</p>
+<div class='sig'>
+<p><strong>Email Signature</strong></p>
+</div

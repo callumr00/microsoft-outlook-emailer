@@ -1,0 +1,17 @@
+<style>
+    p, li {
+        font-family: "Calibri","sans-serif";
+    }
+
+    a {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    .sig {
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 150%;
+        margin: 16px;
+    }
+</style>
