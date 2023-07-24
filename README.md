@@ -5,7 +5,7 @@ This is a Python script that allows the modular construction and sending of emai
 The construction of the email can be broken down into mutliple parts. Conditional statements allow for adaptive control of the content based on the category of recipient.
 
 Email recipients are retrieved from [recipients.csv](https://github.com/callumr00/microsoft-outlook-emailer/blob/main/recipients.csv), a csv file that takes ```category```, ```name```, and ```email```.\
-All fields are required. Any row without a name or valid email will be removed to avoid errors at run time. Rows will duplicate emails are also removed.
+All fields are required. Any row without a name or valid email will be removed to avoid errors at run time. Rows with duplicate emails are also removed.
 
 An email is then constructed for each of the recipients.\
 The body of the email consists of the [Email Style](https://github.com/callumr00/microsoft-outlook-emailer/blob/main/Email%20Style.txt), [Email Introduction](https://github.com/callumr00/microsoft-outlook-emailer/blob/main/Email%20Introduction.txt), Email Details, and [Email Signature](https://github.com/callumr00/microsoft-outlook-emailer/blob/main/Email%20Signature.txt).\
